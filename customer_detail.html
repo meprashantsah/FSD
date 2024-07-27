@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            Detail
+        </title>
+        <body>
+            Name : <p>{{object.name}}</p>
+            place: <p>{{object.place}}</p>
+            {% for c in customer %}
+                <ul>
+                    <li>{{c}}</li>
+                </ul>
+            {% endfor %}
+
+        </body>
+    </head>
+</html>
